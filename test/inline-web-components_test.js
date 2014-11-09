@@ -11,8 +11,8 @@ describe("inline-web-components node module", function() {
 	it("should inline the components", function() {
 		var source     = fs.readFileSync("test/test.html", "utf8"),
 			components = {
-				"about-app": "test/about-app.html",
-				"cool-component": "test/cool-component.html"
+				"about-app": "test/components/about-app.html",
+				"cool-component": "test/components/cool-component.html"
 			},
 			result     = fs.readFileSync("test/result.html", "utf8");
 
