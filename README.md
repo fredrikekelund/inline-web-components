@@ -23,7 +23,7 @@ inlineWebComponents(source, components);  // Returns the source string with the 
 
 ### Grunt task
 
-If you want to include this task in some kind of build process, there's a Grunt task to do just that.
+If you want to include this task in some kind of build process, there's [a Grunt task](https://github.com/fredrikekelund/grunt-inline-web-components) to do just that.
 
 ## License
 
